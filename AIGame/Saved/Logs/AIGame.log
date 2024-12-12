@@ -1102,3 +1102,264 @@ Script Stack (0 frames):
 [2024.12.12-13.03.49:164][646]LogContentValidation: Display: Validating Blueprint /Game/AdvancedLocomotionV4/Blueprints/CharacterLogic/ALS_AnimMan_CharacterBP.ALS_AnimMan_CharacterBP
 [2024.12.12-13.03.49:164][646]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/AI/BP_ALS_AI_Knife.BP_ALS_AI_Knife
 [2024.12.12-13.03.49:164][646]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2024.12.12-13.12.06:661][932]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.12.06:661][932]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.12.11:178][202]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.12.11:178][202]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.13.08:113][624]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.13.08:113][624]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.13.31:451][ 82]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.13.31:451][ 82]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.13.35:339][312]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2024.12.12-13.14.49:448][312]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/AI/BP_ALS_AI_Gun.BP_ALS_AI_Gun
+[2024.12.12-13.14.52:701][484]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-13.14.52:701][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.14.52:763][484]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDownBP/AI/BP_ALS_AI_Gun.BP_ALS_AI_Gun
+[2024.12.12-13.15.09:631][428]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/TopDownBP/AI/BP_ALS_AI_Gun.BP_ALS_AI_Gun from ALS_AnimMan_CharacterBP_C to BP_ALS_AI_Base_C...
+[2024.12.12-13.15.09:641][428]BlueprintLog: New page: Compile BP_ALS_AI_Gun
+[2024.12.12-13.15.09:711][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2024.12.12-13.15.10:758][485]BlueprintLog: New page: Compile BP_ALS_AI_Gun
+[2024.12.12-13.15.10:818][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2024.12.12-13.15.12:565][585]LogTemp: Repeating last play command: Selected Viewport
+[2024.12.12-13.15.12:571][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.12-13.15.12:571][585]PIE: New page: PIE session: TopDownExampleMap (12 дек. 2024 г., 19:15:12)
+[2024.12.12-13.15.12:571][585]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-13.15.12:580][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008833s)
+[2024.12.12-13.15.12:581][585]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2024.12.12-13.15.12:581][585]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2024.12.12-13.15.12:581][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009892s)
+[2024.12.12-13.15.12:611][585]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2024.12.12-13.15.12:613][585]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.12.12-13.15.12:613][585]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.12-13.15.12:613][585]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.12-13.15.12:613][585]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.12-13.15.12:613][585]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.12-13.15.12:613][585]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.12-13.15.12:613][585]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.12-13.15.12:613][585]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.12-13.15.12:613][585]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.12-13.15.12:613][585]LogAudio: Display: Using built-in audio occlusion.
+[2024.12.12-13.15.12:613][585]LogAudioMixer: Display: Initializing audio mixer.
+[2024.12.12-13.15.12:617][585]LogAudioMixer: Display: 0: FrontLeft
+[2024.12.12-13.15.12:617][585]LogAudioMixer: Display: 1: FrontRight
+[2024.12.12-13.15.12:652][585]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2024.12.12-13.15.12:652][585]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.12-13.15.12:652][585]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.12-13.15.12:652][585]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.12-13.15.12:653][585]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.12.12-13.15.12:653][585]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.12.12-13.15.12:653][585]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.12.12-13.15.12:653][585]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.12.12-13.15.12:653][585]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.12.12-13.15.12:653][585]LogInit: FAudioDevice initialized.
+[2024.12.12-13.15.12:653][585]LogAudio: Display: Audio Device (ID: 4) registered with world 'TopDownExampleMap'.
+[2024.12.12-13.15.12:671][585]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.12.12-13.15.12:672][585]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2024.12.12-16.15.12
+[2024.12.12-13.15.12:673][585]LogWorld: Bringing up level for play took: 0.002255
+[2024.12.12-13.15.12:673][585]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2024.12.12-13.15.12:676][585]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.12:676][585]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.12:676][585]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.12:678][585]PIE: Server logged in
+[2024.12.12-13.15.12:679][585]PIE: Play in editor total start time 0,111 seconds.
+[2024.12.12-13.15.13:873][656]Cmd: LevelEditor.ToggleImmersive
+[2024.12.12-13.15.14:472][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-13.15.14:473][689]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-13.15.14:473][689]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-13.15.14:473][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.15.14:496][689]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.12-13.15.14:502][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.15.14:528][689]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.12-13.15.14:530][689]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-13.15.14:531][689]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-13.15.14:546][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-13.15.14:551][689]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2024.12.12-13.15.14:622][690]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.12.12-13.15.20:489][791]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.15.20:489][791]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.12.12-13.15.35:770][664]LogTemp: Repeating last play command: Selected Viewport
+[2024.12.12-13.15.35:781][664]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.12-13.15.35:781][664]PIE: New page: PIE session: TopDownExampleMap (12 дек. 2024 г., 19:15:35)
+[2024.12.12-13.15.35:781][664]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-13.15.35:790][664]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008352s)
+[2024.12.12-13.15.35:791][664]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2024.12.12-13.15.35:791][664]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2024.12.12-13.15.35:791][664]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009530s)
+[2024.12.12-13.15.35:822][664]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2024.12.12-13.15.35:823][664]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.12.12-13.15.35:823][664]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.12-13.15.35:823][664]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.12-13.15.35:823][664]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.12-13.15.35:823][664]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.12-13.15.35:823][664]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.12-13.15.35:823][664]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.12-13.15.35:823][664]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.12-13.15.35:823][664]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.12-13.15.35:823][664]LogAudio: Display: Using built-in audio occlusion.
+[2024.12.12-13.15.35:823][664]LogAudioMixer: Display: Initializing audio mixer.
+[2024.12.12-13.15.35:826][664]LogAudioMixer: Display: 0: FrontLeft
+[2024.12.12-13.15.35:827][664]LogAudioMixer: Display: 1: FrontRight
+[2024.12.12-13.15.35:858][664]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2024.12.12-13.15.35:858][664]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.12-13.15.35:858][664]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.12-13.15.35:858][664]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.12-13.15.35:859][664]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.12.12-13.15.35:859][664]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.12.12-13.15.35:859][664]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.12.12-13.15.35:872][664]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.12.12-13.15.35:872][664]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.12.12-13.15.35:872][664]LogInit: FAudioDevice initialized.
+[2024.12.12-13.15.35:872][664]LogAudio: Display: Audio Device (ID: 5) registered with world 'TopDownExampleMap'.
+[2024.12.12-13.15.35:879][664]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.12.12-13.15.35:883][664]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2024.12.12-16.15.35
+[2024.12.12-13.15.35:883][664]LogWorld: Bringing up level for play took: 0.003261
+[2024.12.12-13.15.35:883][664]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2024.12.12-13.15.35:886][664]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.35:886][664]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.35:886][664]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.35:889][664]PIE: Server logged in
+[2024.12.12-13.15.35:890][664]PIE: Play in editor total start time 0,115 seconds.
+[2024.12.12-13.15.35:940][666]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_L90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Gun_2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-13.15.37:839][780]Cmd: LevelEditor.ToggleImmersive
+[2024.12.12-13.15.41:245][983]PIE: Warning: TopDownCharacter_C_0.CharacterMesh0 AnimMan has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.12.12-13.15.41:777][ 15]PIE: Warning: BP_ALS_AI_Gun_2.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.12.12-13.15.43:243][103]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.44:428][174]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_CLF_to_N' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-13.15.44:912][203]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_CLF_Rotate_L90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Gun_2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-13.15.45:944][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-13.15.45:944][263]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-13.15.45:944][263]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-13.15.45:944][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.15.45:963][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.12-13.15.46:000][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.15.46:027][263]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.12-13.15.46:028][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-13.15.46:028][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-13.15.46:045][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-13.15.46:049][263]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2024.12.12-13.15.46:118][264]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.12.12-13.15.46:352][271]LogTemp: Repeating last play command: Selected Viewport
+[2024.12.12-13.15.46:359][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.12-13.15.46:359][271]PIE: New page: PIE session: TopDownExampleMap (12 дек. 2024 г., 19:15:46)
+[2024.12.12-13.15.46:359][271]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-13.15.46:368][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008671s)
+[2024.12.12-13.15.46:370][271]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2024.12.12-13.15.46:370][271]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2024.12.12-13.15.46:370][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009632s)
+[2024.12.12-13.15.46:398][271]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2024.12.12-13.15.46:399][271]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.12.12-13.15.46:399][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.12-13.15.46:399][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.12-13.15.46:399][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.12-13.15.46:399][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.12-13.15.46:399][271]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.12-13.15.46:399][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.12-13.15.46:399][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.12-13.15.46:399][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.12-13.15.46:400][271]LogAudio: Display: Using built-in audio occlusion.
+[2024.12.12-13.15.46:400][271]LogAudioMixer: Display: Initializing audio mixer.
+[2024.12.12-13.15.46:404][271]LogAudioMixer: Display: 0: FrontLeft
+[2024.12.12-13.15.46:404][271]LogAudioMixer: Display: 1: FrontRight
+[2024.12.12-13.15.46:437][271]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2024.12.12-13.15.46:437][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.12-13.15.46:437][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.12-13.15.46:437][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.12-13.15.46:437][271]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.12.12-13.15.46:437][271]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.12.12-13.15.46:437][271]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.12.12-13.15.46:450][271]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.12.12-13.15.46:450][271]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.12.12-13.15.46:450][271]LogInit: FAudioDevice initialized.
+[2024.12.12-13.15.46:451][271]LogAudio: Display: Audio Device (ID: 6) registered with world 'TopDownExampleMap'.
+[2024.12.12-13.15.46:460][271]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.12.12-13.15.46:464][271]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2024.12.12-16.15.46
+[2024.12.12-13.15.46:464][271]LogWorld: Bringing up level for play took: 0.003351
+[2024.12.12-13.15.46:465][271]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2024.12.12-13.15.46:468][271]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.46:468][271]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.46:468][271]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.15.46:470][271]PIE: Server logged in
+[2024.12.12-13.15.46:472][271]PIE: Play in editor total start time 0,115 seconds.
+[2024.12.12-13.15.46:556][273]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_L90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Gun_2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-13.15.51:900][586]PIE: Warning: TopDownCharacter_C_0.CharacterMesh0 AnimMan has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.12.12-13.15.52:417][617]LogBlueprintUserMessages: [BTTask_Shoot_C_0] 
+[2024.12.12-13.15.53:093][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-13.15.53:093][655]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-13.15.53:094][655]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-13.15.53:094][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.15.53:104][655]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.12-13.15.53:139][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.15.53:165][655]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-13.15.53:165][655]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-13.15.53:166][655]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-13.15.53:187][655]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.12.12-13.15.53:271][656]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.12.12-13.15.56:857][833]LogSlate: Window 'Message Log' being destroyed
+[2024.12.12-13.15.56:865][833]LogSlate: Window 'Message Log' being destroyed
+[2024.12.12-13.16.03:408][219]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2024.12.12-13.16.04:545][285]LogEditorViewport: Clicking on Actor (LMB): BP_ALS_AI_Knife_C (BP_ALS_AI_Knife)
+[2024.12.12-13.16.04:841][300]Cmd: DELETE
+[2024.12.12-13.16.04:841][300]Cmd: ACTOR DELETE
+[2024.12.12-13.16.04:843][300]LogEditorActor: Deleted Actor: BP_ALS_AI_Knife_C
+[2024.12.12-13.16.04:872][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.12.12-13.16.04:874][300]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2024.12.12-13.16.05:919][363]LogTemp: Repeating last play command: Selected Viewport
+[2024.12.12-13.16.05:926][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.12-13.16.05:926][363]PIE: New page: PIE session: TopDownExampleMap (12 дек. 2024 г., 19:16:05)
+[2024.12.12-13.16.05:926][363]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-13.16.05:934][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008063s)
+[2024.12.12-13.16.05:935][363]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2024.12.12-13.16.05:935][363]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2024.12.12-13.16.05:935][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009367s)
+[2024.12.12-13.16.05:964][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2024.12.12-13.16.05:965][363]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.12.12-13.16.05:965][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.12-13.16.05:965][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.12-13.16.05:965][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.12-13.16.05:965][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.12-13.16.05:965][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.12-13.16.05:965][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.12-13.16.05:965][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.12-13.16.05:965][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.12-13.16.05:965][363]LogAudio: Display: Using built-in audio occlusion.
+[2024.12.12-13.16.05:965][363]LogAudioMixer: Display: Initializing audio mixer.
+[2024.12.12-13.16.05:969][363]LogAudioMixer: Display: 0: FrontLeft
+[2024.12.12-13.16.05:969][363]LogAudioMixer: Display: 1: FrontRight
+[2024.12.12-13.16.06:001][363]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2024.12.12-13.16.06:002][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.12-13.16.06:002][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.12-13.16.06:002][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.12-13.16.06:002][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.12.12-13.16.06:002][363]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.12.12-13.16.06:002][363]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.12.12-13.16.06:015][363]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.12.12-13.16.06:015][363]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.12.12-13.16.06:015][363]LogInit: FAudioDevice initialized.
+[2024.12.12-13.16.06:015][363]LogAudio: Display: Audio Device (ID: 7) registered with world 'TopDownExampleMap'.
+[2024.12.12-13.16.06:021][363]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.12.12-13.16.06:023][363]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2024.12.12-16.16.06
+[2024.12.12-13.16.06:024][363]LogWorld: Bringing up level for play took: 0.002264
+[2024.12.12-13.16.06:024][363]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2024.12.12-13.16.06:027][363]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.16.06:027][363]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.16.06:027][363]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.16.06:028][363]PIE: Server logged in
+[2024.12.12-13.16.06:030][363]PIE: Play in editor total start time 0,106 seconds.
+[2024.12.12-13.16.06:073][365]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_L90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Gun_2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-13.16.12:922][776]LogBlueprintUserMessages: [BTTask_Shoot_C_0] TopDownCharacter
+[2024.12.12-13.16.14:922][896]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-13.16.16:106][967]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_CLF_to_N' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownCharacter_C_0.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-13.16.20:923][256]LogBlueprintUserMessages: [BTTask_Shoot_C_0] TopDownCharacter
+[2024.12.12-13.16.21:091][266]PIE: Warning: BP_ALS_AI_Gun_2.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.12.12-13.16.22:165][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-13.16.22:165][328]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-13.16.22:165][328]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-13.16.22:165][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.16.22:179][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.12-13.16.22:184][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-13.16.22:211][328]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.12-13.16.22:211][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-13.16.22:212][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-13.16.22:227][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-13.16.22:232][328]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.12.12-13.16.22:332][329]LogPlayLevel: Display: Destroying online subsystem :Context_23
