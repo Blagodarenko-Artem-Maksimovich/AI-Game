@@ -1441,3 +1441,187 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2024.12.12-16.35.30:811][100]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/TopDownExampleMap0292FBF6473CF9F64168A1835B1592A8.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
 [2024.12.12-16.35.30:831][100]AssetCheck: New page: Asset Save: TopDownExampleMap
 [2024.12.12-16.35.30:831][100]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2024.12.12-16.38.23:039][ 74]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.38.27:713][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game/spawners/BP_spawner_enemy" FILE="../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset" SILENT=true
+[2024.12.12-16.38.27:716][338]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/BP_spawner_enemy1B994D80467EE3AD41E164BFD3196571.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset'
+[2024.12.12-16.38.27:727][338]AssetCheck: New page: Asset Save: BP_spawner_enemy
+[2024.12.12-16.38.27:727][338]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.38.28:991][414]BlueprintLog: New page: Compile BP_spawner_enemy
+[2024.12.12-16.38.29:018][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.12.12-16.38.45:961][429]LogSlate: Window 'BP_spawner_enemy' being destroyed
+[2024.12.12-16.38.46:016][429]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-16.38.46:016][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-16.38.50:565][698]LogTemp: Repeating last play command: Selected Viewport
+[2024.12.12-16.38.50:568][698]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.12.12-16.38.50:570][698]LogPlayLevel: [PlayLevel] Compiling BP_ALS_AI_Base before play...
+[2024.12.12-16.38.50:570][698]LogPlayLevel: [PlayLevel]   Compiling BP_ALS_AI_Barrels as a dependent...
+[2024.12.12-16.38.50:570][698]LogPlayLevel: [PlayLevel]   Compiling BP_ALS_AI_Knife as a dependent...
+[2024.12.12-16.38.50:622][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.12.12-16.38.50:626][698]LogPlayLevel: PlayLevel: Blueprint regeneration took 57 ms (3 blueprints)
+[2024.12.12-16.38.50:626][698]PIE: New page: PIE session: TopDownExampleMap (12 дек. 2024 г., 22:38:50)
+[2024.12.12-16.38.50:626][698]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-16.38.50:633][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007896s)
+[2024.12.12-16.38.50:634][698]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2024.12.12-16.38.50:634][698]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2024.12.12-16.38.50:634][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.008782s)
+[2024.12.12-16.38.50:647][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.12.12-16.38.50:647][698]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.12.12-16.38.50:648][698]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.12-16.38.50:648][698]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.12-16.38.50:648][698]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.12-16.38.50:648][698]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.12-16.38.50:648][698]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.12-16.38.50:648][698]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.12-16.38.50:648][698]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.12-16.38.50:648][698]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.12-16.38.50:648][698]LogAudio: Display: Using built-in audio occlusion.
+[2024.12.12-16.38.50:648][698]LogAudioMixer: Display: Initializing audio mixer.
+[2024.12.12-16.38.50:650][698]LogAudioMixer: Display: 0: FrontLeft
+[2024.12.12-16.38.50:650][698]LogAudioMixer: Display: 1: FrontRight
+[2024.12.12-16.38.50:656][698]LogAudioMixer: Display: Using Audio Device Наушники (soundcore Space A40)
+[2024.12.12-16.38.50:656][698]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.12-16.38.50:656][698]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.12-16.38.50:656][698]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.12-16.38.50:656][698]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.12.12-16.38.50:656][698]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.12.12-16.38.50:656][698]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.12.12-16.38.50:667][698]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.12.12-16.38.50:667][698]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.12.12-16.38.50:667][698]LogInit: FAudioDevice initialized.
+[2024.12.12-16.38.50:667][698]LogAudio: Display: Audio Device (ID: 7) registered with world 'TopDownExampleMap'.
+[2024.12.12-16.38.50:674][698]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.12.12-16.38.50:677][698]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2024.12.12-19.38.50
+[2024.12.12-16.38.50:678][698]LogWorld: Bringing up level for play took: 0.003273
+[2024.12.12-16.38.50:678][698]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2024.12.12-16.38.50:679][698]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-16.38.50:679][698]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-16.38.50:679][698]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-16.38.50:681][698]PIE: Server logged in
+[2024.12.12-16.38.50:682][698]PIE: Play in editor total start time 0,115 seconds.
+[2024.12.12-16.38.50:717][699]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Barrels_2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-16.38.50:733][700]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Barrels2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-16.38.52:433][802]PIE: Warning: TopDownCharacter_C_0.CharacterMesh0 AnimMan has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.12.12-16.38.52:599][812]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Barrels_C_2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-16.38.53:182][847]PIE: Warning: TopDownCharacter_C_0.CharacterMesh0 AnimMan has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.12.12-16.38.53:446][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-16.38.53:446][861]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-16.38.53:448][861]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-16.38.53:448][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-16.38.53:458][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.12-16.38.53:464][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-16.38.53:475][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-16.38.53:476][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-16.38.53:476][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-16.38.53:493][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.12.12-16.38.53:536][862]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.12.12-16.38.54:590][925]LogSlate: Window 'Message Log' being destroyed
+[2024.12.12-16.38.54:596][925]LogSlate: Window 'Message Log' being destroyed
+[2024.12.12-16.38.55:713][991]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.40.07:699][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game/spawners/BP_spawner_enemy" FILE="../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset" SILENT=true
+[2024.12.12-16.40.07:703][263]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/BP_spawner_enemy3AF6ABE14BC1C69D650D9587D4AC19CB.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset'
+[2024.12.12-16.40.07:713][263]AssetCheck: New page: Asset Save: BP_spawner_enemy
+[2024.12.12-16.40.07:713][263]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.40.10:207][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game/spawners/BP_spawner_enemy" FILE="../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset" SILENT=true
+[2024.12.12-16.40.10:211][412]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/BP_spawner_enemy396F39A74B06DD0E98BBBEB202E86070.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset'
+[2024.12.12-16.40.10:220][412]AssetCheck: New page: Asset Save: BP_spawner_enemy
+[2024.12.12-16.40.10:220][412]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.40.18:359][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game/spawners/BP_spawner_enemy" FILE="../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset" SILENT=true
+[2024.12.12-16.40.18:363][900]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/BP_spawner_enemy520A37934F6D1088A4C917A0A1661F0D.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset'
+[2024.12.12-16.40.18:373][900]AssetCheck: New page: Asset Save: BP_spawner_enemy
+[2024.12.12-16.40.18:373][900]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.40.40:923][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game/spawners/BP_spawner_enemy" FILE="../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset" SILENT=true
+[2024.12.12-16.40.40:927][243]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/BP_spawner_enemyFA30AC2847097B8CAA75CB9ECE14A309.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset'
+[2024.12.12-16.40.40:938][243]AssetCheck: New page: Asset Save: BP_spawner_enemy
+[2024.12.12-16.40.40:938][243]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.40.42:348][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game/spawners/BP_spawner_enemy" FILE="../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset" SILENT=true
+[2024.12.12-16.40.42:352][326]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/BP_spawner_enemy2D706B8E4141B1F3773356A55C86F9DC.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset'
+[2024.12.12-16.40.42:362][326]AssetCheck: New page: Asset Save: BP_spawner_enemy
+[2024.12.12-16.40.42:362][326]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.40.43:805][413]BlueprintLog: New page: Compile BP_spawner_enemy
+[2024.12.12-16.40.43:834][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.12.12-16.40.48:176][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/game/spawners/BP_spawner_enemy" FILE="../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset" SILENT=true
+[2024.12.12-16.40.48:180][672]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/BP_spawner_enemyF99A03B44533233F6FC5D7A151194234.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/Blueprints/game/spawners/BP_spawner_enemy.uasset'
+[2024.12.12-16.40.48:191][672]AssetCheck: New page: Asset Save: BP_spawner_enemy
+[2024.12.12-16.40.48:191][672]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/game/spawners/BP_spawner_enemy.BP_spawner_enemy
+[2024.12.12-16.40.49:250][736]BlueprintLog: New page: Compile BP_spawner_enemy
+[2024.12.12-16.40.49:278][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.12.12-16.40.50:592][814]LogSlate: Window 'BP_spawner_enemy' being destroyed
+[2024.12.12-16.40.50:598][814]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-16.40.50:598][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-16.40.54:586][ 50]LogEditorViewport: Clicking on Actor (LMB): BP_spawner_enemy_C (BP_spawner_enemy)
+[2024.12.12-16.41.00:817][423]LogTemp: Repeating last play command: Selected Viewport
+[2024.12.12-16.41.00:820][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.12-16.41.00:820][423]PIE: New page: PIE session: TopDownExampleMap (12 дек. 2024 г., 22:41:00)
+[2024.12.12-16.41.00:821][423]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-16.41.00:829][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007767s)
+[2024.12.12-16.41.00:830][423]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2024.12.12-16.41.00:830][423]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2024.12.12-16.41.00:831][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009164s)
+[2024.12.12-16.41.00:844][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.12.12-16.41.00:847][423]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.12.12-16.41.00:847][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.12-16.41.00:847][423]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.12-16.41.00:847][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.12-16.41.00:847][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.12-16.41.00:847][423]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.12.12-16.41.00:847][423]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.12-16.41.00:847][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.12.12-16.41.00:847][423]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.12-16.41.00:848][423]LogAudio: Display: Using built-in audio occlusion.
+[2024.12.12-16.41.00:848][423]LogAudioMixer: Display: Initializing audio mixer.
+[2024.12.12-16.41.00:850][423]LogAudioMixer: Display: 0: FrontLeft
+[2024.12.12-16.41.00:850][423]LogAudioMixer: Display: 1: FrontRight
+[2024.12.12-16.41.00:856][423]LogAudioMixer: Display: Using Audio Device Наушники (soundcore Space A40)
+[2024.12.12-16.41.00:856][423]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.12-16.41.00:857][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.12-16.41.00:857][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.12-16.41.00:857][423]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.12.12-16.41.00:857][423]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.12.12-16.41.00:857][423]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.12.12-16.41.00:868][423]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.12.12-16.41.00:868][423]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.12.12-16.41.00:868][423]LogInit: FAudioDevice initialized.
+[2024.12.12-16.41.00:868][423]LogAudio: Display: Audio Device (ID: 8) registered with world 'TopDownExampleMap'.
+[2024.12.12-16.41.00:872][423]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.12.12-16.41.00:876][423]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2024.12.12-19.41.00
+[2024.12.12-16.41.00:877][423]LogWorld: Bringing up level for play took: 0.003842
+[2024.12.12-16.41.00:877][423]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2024.12.12-16.41.00:879][423]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-16.41.00:879][423]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-16.41.00:879][423]PIE: Warning: Invalid Simulate Options: Body (TopDownCharacter_C_0.CharacterMesh0 AnimMan) is set to simulate physics but Collision Enabled is incompatible
+[2024.12.12-16.41.00:884][423]PIE: Server logged in
+[2024.12.12-16.41.00:884][423]PIE: Play in editor total start time 0,064 seconds.
+[2024.12.12-16.41.00:915][424]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Barrels_2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-16.41.00:931][425]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Barrels_C_1.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-16.41.01:645][468]PIE: Warning: BP_ALS_AI_Barrels_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.12.12-16.41.02:363][511]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Barrels2.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-16.41.05:846][720]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Barrels_C_3.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-16.41.11:663][ 69]AnimBlueprintLog: Warning: Trying to play a non-additive animation 'ALS_N_Rotate_R90' into a pose that is expected to be additive in anim instance 'ALS_AnimBP_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.BP_ALS_AI_Barrels_C_4.CharacterMesh0.ALS_AnimBP_C_0'
+[2024.12.12-16.41.13:887][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-16.41.13:887][200]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2024.12.12-16.41.13:888][200]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.12-16.41.13:888][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-16.41.13:896][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.12-16.41.13:903][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.12-16.41.13:915][200]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.12-16.41.13:915][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-16.41.13:916][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.12.12-16.41.13:927][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.12-16.41.13:931][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.12.12-16.41.13:990][201]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.12.12-16.41.14:999][259]LogSlate: Window 'Message Log' being destroyed
+[2024.12.12-16.41.15:004][259]LogSlate: Window 'Message Log' being destroyed
+[2024.12.12-16.41.16:104][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2024.12.12-16.41.16:366][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.12.12-16.41.16:383][338]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/TopDownExampleMap4DA868904FA1E33E85A08180CCF3F558.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2024.12.12-16.41.16:403][338]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2024.12.12-16.41.16:403][338]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2024.12.12-16.41.23:206][746]LogEditorViewport: Clicking on Actor (LMB): BP_spawner_enemy_C (BP_spawner_enemy)
+[2024.12.12-16.41.24:870][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.12.12-16.41.24:889][843]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/TopDownExampleMap7E60B0B643C4B519D83E5A8D68AE7ABA.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2024.12.12-16.41.24:911][843]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2024.12.12-16.41.24:911][843]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2024.12.12-16.44.13:198][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.12.12-16.44.13:226][935]LogSavePackage: Moving '../../../../../../stuff/git repos/AI-Game/AIGame/Saved/TopDownExampleMapE05139E44ED7D113C53F24AA9A1357C2.tmp' to '../../../../../../stuff/git repos/AI-Game/AIGame/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2024.12.12-16.44.13:244][935]AssetCheck: New page: Asset Save: TopDownExampleMap
+[2024.12.12-16.44.13:244][935]LogContentValidation: Display: Validating World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
